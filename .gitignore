@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$*
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Large input document
+prosepectus.docx
+
+# Generated redaction outputs and logs
+*_REDACTED.docx
+*_redacted.docx
+output_redacted.docx
+audit_log.json
+audit_log_mapping.json
+
+# General temporary files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
